@@ -9,7 +9,7 @@ public class StrategyOTSKOKfixedloss {
 
 }
 class Algorithm3{
-    public static void results(int Width,int numberofPeriods,float Window) throws Exception {
+    public static Float results(int Width,int numberofPeriods,float Window) throws Exception {
         Float a;
         Float b;
         Float average;
@@ -59,5 +59,6 @@ class Algorithm3{
             }
         }
         System.out.println("Общий доход:"+ yield);
+        return yield;
     }
 }

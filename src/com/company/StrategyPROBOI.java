@@ -9,7 +9,7 @@ public class StrategyPROBOI {
 
 }
 class Algorithm2{
-    public static void results(int Width,int numberofPeriods,float Window) throws Exception {
+    public static Float results(int Width,int numberofPeriods,float Window) throws Exception {
         Float a;
         Float b;
         Float average;
@@ -39,5 +39,6 @@ class Algorithm2{
             }
         }
         System.out.println("Общий доход:"+ yield);
+        return yield;
     }
 }

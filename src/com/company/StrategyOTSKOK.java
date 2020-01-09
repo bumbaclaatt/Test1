@@ -5,12 +5,12 @@ import java.util.List;
 public class StrategyOTSKOK {
 
     public static void main(String[] args) throws Exception {
-    Algorithm1.results(90,100,5);
+    Algorithm1.results(1000,100,1);
 }
 
 }
 class Algorithm1{
-    public static void results(int Width,int numberofPeriods,float Window) throws Exception {
+    public static Float results(int Width,int numberofPeriods,float Window) throws Exception {
         Float a;
         Float b;
         Float average;
@@ -40,5 +40,6 @@ class Algorithm1{
             }
         }
         System.out.println("Общий доход:"+ yield);
+        return yield;
     }
 }

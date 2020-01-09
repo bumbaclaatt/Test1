@@ -10,7 +10,7 @@ public class StrategyPROBOIfixedloss {
 
 }
 class Algorithm4{
-    public static void results(int Width,int numberofPeriods,float Window) throws Exception {
+    public static Float results(int Width,int numberofPeriods,float Window) throws Exception {
         Float a;
         Float b;
         Float average;
@@ -60,5 +60,6 @@ class Algorithm4{
             }
         }
         System.out.println("Общий доход:"+ yield);
+        return yield;
     }
 }
