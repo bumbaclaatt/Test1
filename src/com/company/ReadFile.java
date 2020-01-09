@@ -11,7 +11,7 @@ import java.util.List;
 public class ReadFile {
     public static List<List<String>> getdata() throws Exception {
         List<List<String>> data = new ArrayList<List<String>>();
-        try (CSVReader csvReader = new CSVReader(new FileReader("BTC-USD.csv"))) {
+        try (CSVReader csvReader = new CSVReader(new FileReader("BTC-USD1.csv"))) {
             String[] values = null;
             while ((values = csvReader.readNext()) != null) {
                 data.add(Arrays.asList(values));
