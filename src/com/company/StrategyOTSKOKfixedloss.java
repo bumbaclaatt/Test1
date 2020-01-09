@@ -4,7 +4,7 @@ import java.util.List;
 
 public class StrategyOTSKOKfixedloss {
     public static void main(String[] args) throws Exception {
-    Algorithm3.results(900,40,5);
+    Algorithm3.results(900,10,3);
 }
 
 }

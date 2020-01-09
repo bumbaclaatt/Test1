@@ -5,7 +5,7 @@ import java.util.List;
 public class StrategyOTSKOK {
 
     public static void main(String[] args) throws Exception {
-    Algorithm1.results(1000,100,1);
+    Algorithm1.results(900,10,11);
 }
 
 }

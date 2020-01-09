@@ -4,7 +4,7 @@ import java.util.List;
 
 public class StrategyPROBOI {
     public static void main(String[] args) throws Exception {
-    Algorithm2.results(50,15,2);
+    Algorithm2.results(9,10,0.05f);
 }
 
 }
