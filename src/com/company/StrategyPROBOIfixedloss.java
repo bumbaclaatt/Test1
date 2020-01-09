@@ -5,7 +5,7 @@ import java.util.List;
 public class StrategyPROBOIfixedloss {
 
     public static void main(String[] args) throws Exception {
-        Algorithm4.results(90,100,5);
+        Algorithm4.results(9,10,0.05f);
     }
 
 }
